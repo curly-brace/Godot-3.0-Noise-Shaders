@@ -1,7 +1,8 @@
 # Different noise shaders For Godot Engine 3.0
 
 A port of https://github.com/ashima/webgl-noise
-You can use those noises in your gdscripts using the technique showed here:
+
+You can use those noises in your gdscripts using the technique shown here:
 https://github.com/curly-brace/Godot-Simplex
 
 Consists of:
