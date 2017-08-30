@@ -25,7 +25,7 @@ Consists of:
  
 Analytical derivatives return vec3 with first element is a vector of the noise value. And 2nd and 3rd are x and y partial derivatives.
 
-You can test any of the shaders by creating a Sprite node, creating new ImageTexture for it (size like 256x256 would be fine), creating new shader material for it and loading desired shader to it.
+You can test any of the shaders by creating a Sprite node, creating new ImageTexture for it (size like 256x256 would be fine), creating new shader material for it and loading desired shader to it. (try simplex3d.tres ^_^ )
 
 All shaders have offset and scale parameters. Set scale to something like 8 to see the noise better.
 Worley shaders have jitter parameter that with 0 value will output perfect squares.
