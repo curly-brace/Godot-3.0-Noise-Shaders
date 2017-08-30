@@ -15,10 +15,10 @@ Consists of:
 - simplex 3d with analytic derivative gradient output
 - simplex 4d
 - and last is 'psrdnoise' monster with 4:
- - 2-D non-tiling simplex noise with rotating gradients, without the analytical derivative
- - 2-D non-tiling simplex noise with rotating gradients and analytical derivative
- - 2-D tiling simplex noise with rotating gradients, without the analytical derivative
- - 2-D tiling simplex noise with rotating gradients and analytical derivative
+  - 2-D non-tiling simplex noise with rotating gradients, without the analytical derivative
+  - 2-D non-tiling simplex noise with rotating gradients and analytical derivative
+  - 2-D tiling simplex noise with rotating gradients, without the analytical derivative
+  - 2-D tiling simplex noise with rotating gradients and analytical derivative
  
 Analytical derivatives return vec3 with first element is a vector of the noise value. And 2nd and 3rd are x and y partial derivatives.
 
