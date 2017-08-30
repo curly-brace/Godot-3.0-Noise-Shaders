@@ -1,6 +1,8 @@
 # Different noise shaders For Godot Engine 3.0
 
 A port of https://github.com/ashima/webgl-noise
+You can use those noises in your gdscripts using the technique showed here:
+https://github.com/curly-brace/Godot-Simplex
 
 Consists of:
 - worley 2d
@@ -29,3 +31,6 @@ Worley shaders have jitter parameter that with 0 value will output perfect squar
 
 More info on original repo:
 https://github.com/ashima/webgl-noise/wiki
+
+#### Drawbacks:
+godot does not support (currently) in shaders: constants, inline functions, defines, for loops, better swizzling. So code is not as efficient as it could be.
