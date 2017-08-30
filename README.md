@@ -9,7 +9,7 @@ Consists of:
 - worley 2d
 - worley with 2x2 window instead of 3x3
 - worley 3d
-- worley 3d with 2x2x2 window instead of 3x3
+- worley 3d with 2x2x2 window instead of 3x3x3
 - perlin 2d
 - perlin 3d
 - perlin 4d
